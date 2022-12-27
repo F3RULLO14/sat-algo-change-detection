@@ -5,11 +5,10 @@ setup(
     package_dir={'': 'src'},
     packages=find_packages(where='src'),
     version='0.0.1',
-    description='Change Detection Algorithm',
+    description='Determines the difference between two GRD sentinel-1 sar GeoTiffs.',
     author='Andrew Ferullo',
     license='MIT',
     python_requires='>=3.6',
-    # Version of software used on local machine
     install_requires=[
         'numpy>=1.23.4',
         'GDAL>=3.4.3',
