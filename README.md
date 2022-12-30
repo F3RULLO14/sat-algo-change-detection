@@ -1,4 +1,4 @@
-# Change Deection Algorithm
+# Change Detection Algorithm
 
 This algorithm determines the change between two SAR imagery files, using the 'log-ratio scaling' method.
 
