@@ -2,12 +2,13 @@ from setuptools import find_packages, setup
 
 setup(
     name='change-detection',
-    package_dir={'': 'src'},
-    packages=find_packages(where='src'),
-    version='0.0.1',
-    description='Determines the difference between two GRD sentinel-1 sar GeoTiffs.',
     author='Andrew Ferullo',
+    author_email='f3rullo14@gmail.com',
+    version='0.1.0',
+    description='Evaluate differences between SAR geotifs.',
     license='MIT',
+    packages=find_packages(where='changedetect'),
+    include_package_data=True,
     python_requires='>=3.6',
     install_requires=[
         'numpy>=1.23.4',

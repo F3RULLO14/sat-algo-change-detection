@@ -1,5 +1,6 @@
-*.zip
-*.tif
 *.tiff
-*.json
-sample/archive
+*.tif
+output/
+sample/
+*.egg-info
+dist/
